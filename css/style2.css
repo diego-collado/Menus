@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #f9f8fc;
+    height: 200px;
+}
+
+#logo {
+    margin: auto;
+    height: 250px;
+    width: 320px;
+    text-align: center;
+}
+
+#logo h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 58px;
+}
+
+#nav {
+    height: 62px;
+    background-color: #17181c;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+#nav ul li {
+    float: left;
+    margin-top: 20px;
+}
+
+#nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#nav ul li a:hover {
+    background-color: #929fb3;
+}
